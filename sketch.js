@@ -54,11 +54,7 @@ function setup() {
 	World.add(world,bob4);
 	World.add(world,bob5);
 
-	World.add(world,rope1);
-	World.add(world,rope2);
-	World.add(world,rope3);
-	World.add(world,rope4);
-	World.add(world,rope5);
+
 
 	Engine.run(engine);
 	
@@ -87,7 +83,7 @@ function draw() {
   
   //call display() to show ropes here
 
- rope.show  
+ rope.show()  
 
 
  
